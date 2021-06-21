@@ -1,0 +1,560 @@
+<!doctype html>
+
+<html lang="ko">
+	<head>
+    <title>와이즐리 :: 국내 1위 면도용품 구독 서비스</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1.0">
+    <script src="script/jquery-3.5.1.js"></script>
+    <script src="script/jquery.mousewheel.js"></script>
+    <script src="script/common.js"></script>
+    <script src="script/subscription.js"></script>
+    <link href="css/nomalize.css" rel="stylesheet" type="text/css" />
+    <link href="css/common.css" rel="stylesheet" type="text/css" />
+    <link href="css/subscription-info.css" rel="stylesheet" type="text/css" />
+		<link href='//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+    <div class="cart-modal">
+        <div class="cart">
+            <img class="m-cart-back" src="image/mobile/backArrow.svg" alt="back-arrow"/>
+            <div class="cart-header">장바구니</div>
+            <div class="cart-body">
+                <div class="cart-empty">
+                    장바구니가 비어있습니다.<br/>
+                    상품을 추가해 주세요
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="m-menu-modal">
+        <div class="m-menu close-area">
+            <div class="m-menu-top close-area">
+                <div class="m-menu-top-text close-area">
+                    <span>현명한 습관,<br/></span>
+                    <strong>와이즐리</strong> 입니다
+                </div>
+                <div class="m-menu-login close-area">로그인 &gt;</div>                    
+            </div>
+            <div class="m-menu-bottom close-area">
+                <ul class="m-menu-ul close-area">
+                    <li class="m-menu-li close-area"><a href="subscription-info.html">시작하기</a></li>
+                    <li class="m-menu-li close-area product-open">상품보기
+                        <ul class="m-mennu-product">
+                            <li class="m-menu-product-li close-area"><a href="#">선물세트</a></li>
+                            <li class="m-menu-product-li close-area"><a href="#">면도기 세트</a></li>
+                            <li class="m-menu-product-li close-area"><a href="#">리필 면도날</a></li>
+                            <li class="m-menu-product-li close-area"><a href="#">쉐이빙 젤</a></li>
+                            <li class="m-menu-product-li close-area"><a href="#">애프터쉐이브</a></li>
+                        </ul>
+                    </li>
+                    <li class="m-menu-li close-area"><a href="#">와이즐리 이야기</a></li>
+                    <li class="m-menu-li close-area"><a href="#">고객센터</a></li>
+                    <li class="m-menu-li close-area"><a href="#">채용</a><div class="recruit-quantity">0</div></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <header class="subscription-header">
+        <div class="header-container">
+            <div class="logo"><a href="index.html"><img src="image/common/WiselyLogo.png" alt="header-logo" /></a></div>
+            <ul class="header-menu-wrap">
+                <li class="header-menu-li active"><a href="subscription-info.html">시작하기</a></li>
+                <li class="header-menu-li"><a href="#">상품보기</a></li>
+                <li class="header-menu-li"><a href="#">와이즐리 이야기</a></li>
+                <li class="header-menu-li"><a href="#">고객센터</a></li>
+            </ul>
+            <div class="user-info-wrap">
+                <div class="info-item login-button"><a href="#">로그인</a></div>
+                <div class="info-item basket-button-wrap">
+                    <a class="basket-button" href="#">장바구니</a>
+                    <a class="basket-quantity" href="#">0</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <header class="m-header">
+        <div class="m-header-container">
+            <div class="m-menu-button"><img src="image/mobile/common/newHamburgerMenuBar.svg" alt="menu button"/></div>
+            <div class="m-logo"><a href="index.html"><img src="image/common/WiselyLogo.png" alt="mobile header logo"/></a></div>    
+            <div class="m-cart-button"><img src="image/mobile/common/newShoppingCart.svg" alt="mobile cart button"/></div>
+        </div>            
+    </header>
+    <section>
+        <article class="page-1">
+            <div class="text-wrap text-wrap-1">
+                <h2 class="page-title">
+                    <strong>부담없이 시작해보세요.</strong><br/>
+                    첫 구독시 면도기 무료
+                </h2>
+                <div class="page-sub-title">
+                    면도기는 써봐야 아니까. 배송비는 언제나 무료에요.
+                </div>
+                <a href="#" class="more-button">시작하기</a>
+            </div>
+        </article>
+        <article class="page-2">
+            <div class="text-wrap text-wrap-2">
+                <h2 class="page-title">
+                    낡은 면도날과 <br class="mobile-br"/>자극적인 면도로부터<br/>
+                    <strong>자유로워지세요</strong>
+                </h2>
+            </div>
+            <div class="icon-image-box-wrap">
+                <div class="icon-image-wrap">
+                    <div class="icon-image"><img src="image/subscription/icon-image/subscription_free_icon_1.svg" alt="icon-image" /></div>
+                    <div class="icon-text">
+                        부담없는 가격의<br/>
+                        3-STEP프리미엄 면도용품
+                    </div>
+                </div>
+                <div class="icon-image-wrap">
+                    <div class="icon-image"><img src="image/subscription/icon-image/subscription_free_icon_2.svg" alt="icon-image" /></div>
+                    <div class="icon-text">
+                        건강한 주기에 맞춰<br/>
+                        교체 알림을 드리고 배송해드려요.<br/>
+                        배송비는 언제나 무료
+                    </div>
+                </div>
+                <div class="icon-image-wrap">
+                    <div class="icon-image"><img src="image/subscription/icon-image/subscription_free_icon_3.svg" alt="icon-image" /></div>
+                    <div class="icon-text">
+                        언제나 변경, 해지할 수 있어요<br/>
+                        카톡 하나만 보내면 끝!
+                    </div>
+                </div>
+            </div>
+        </article>
+        <article class="page-3">
+            <div class="text-wrap text-wrap-3">
+                <h2 class="page-title page-title-5">
+                    <strong>부드럽고 정교한 면도</strong><br/>
+                    독일산 5중 면도날
+                </h2>
+            </div>
+            <img class="page-3-pic" src="image/subscription/razor_navy.png" alt="razor-img" />
+        </article>
+        <article class="page-4">
+            <div class="page-container page-4-container">
+                <div class="razor-bubble-wrap">
+                    <div class="razor-box"></div>
+                    <div class="bubble-box"></div>
+                    <div id="bubble-process"></div>
+                </div>
+                <div class="text-wrap text-wrap-4">
+                    <h2 class="page-title">
+                        <strong>거품을 덜어내고,<br />
+                            품질에 투자하다</strong>
+                    </h2>
+                    <div class="page-sub-title">
+                        폭리와 가격거품은 모두 덜어내고, 품질에<br class="mobile-br"/> 과감하게 투자했습니다.<br />
+                        시중 업체들이 따라올 수 없는 품질과 가격에는 이유가 있습니다.<br />
+                        <br />
+                        *면도 구독서비스 1위 (200년 2월, 오픈서베이)
+                    </div>
+                </div>
+            </div>
+        </article>
+        <article class="page-5">
+            <div class="page-5-pic-wrap">
+                <div class="page-5-pic-sticky">
+                    <img class="page-5-pic active" src="image/subscription/story/razor_design_story_1.png" alt="story-pic" />
+                    <img class="page-5-pic" src="image/subscription/story/razor_design_story_2.png" alt="story-pic" />
+                    <img class="page-5-pic" src="image/subscription/story/razor_design_story_3.png" alt="story-pic" />
+                </div>
+            </div>
+            <div class="story-process-wrap">
+                <div class="circle-tag active"></div>
+                <div class="process-story">
+                    <div class="process-fill fill-top"></div>
+                </div>
+                <div class="circle-tag"></div>
+                <div class="process-story">
+                    <div class="process-fill fill-bottom"></div>                    
+                </div>
+                <div class="circle-tag"></div>
+            </div>
+            <div class="page-5-text-position">
+                <div class="text-wrap text-wrap-5 active">
+                    <div class="title-tag">Wisely</div>
+                    <h2 class="page-title page-5-title">
+                        더 높은 기준을 찾아<br />
+                        전세계로
+                    </h2>
+                    <div class="page-sub-title page-5-sub-title">
+                        와이즐리는 가장 뛰어난 면도 경험을 위해 전 세계의<br />
+                        전문가들과 함께 했습니다. 현명한 소비는 좋은제품에서<br />
+                        출발한다고 믿기 때문입니다.
+                    </div>
+                </div>
+                
+                <div class="text-wrap text-wrap-5">
+                    <div class="title-tag">New York</div>
+                    <h2 class="page-title page-5-title">
+                        <strong>미국 뉴욕의 디자이너,</strong><br />
+                        문제를 해결하는 디자인
+                    </h2>
+                    <div class="page-sub-title page-5-sub-title">
+                        와이즐리는 뉴욕의 세계적인 디자인 스튜디오 Aruliden과 혁신적인 면도 용품을<br />
+                        디자인해왔습니다. Google, MoMa, Glossier, Bvlgari를 디자인해온 Aruliden은<br />
+                        기성 면도기의 오래된 디자인 관행에 의문을 던지며, 사용자 중심의 문제 해결에<br />
+                        집중한 탁월한 사용성과 아름다운 디자인을 만들어 냈습니다.
+                    </div>
+                </div>
+                
+                <div class="text-wrap text-wrap-5">
+                    <div class="title-tag">Germany</div>
+                    <h2 class="page-title page-5-title">
+                        <storng>독일 졸링겐의 엔지니어,</storng><br />
+                        정교한 기술력과 장인정신
+                    </h2>
+                    <div class="page-sub-title page-5-sub-title">
+                        와이즐리 면도날은 100% 독일 졸링겐에서 생산됩니다. 독일 졸링겐은<br />
+                        세계적으로 유명한 칼의 도시로, 헹켈, 우스타프 등 명품 칼 브랜드들의 본사가<br />
+                        위치해있죠. 세계 최고 수준의 기술력을 가진 500여명의 엔지니어들이<br />
+                        장인정신을 담아 독보적인 품질의 면도날을 만들어내고 있습니다.
+                    </div>
+                </div>
+            </div>
+        </article>
+        <article class="page-6">
+            <div class="text-wrap text-wrap-6-top">
+                <h2 class="page-title page-title-6-top">
+                    <strong>편안한 면도를 돕는</strong><br/>
+                    성능과 디자인
+                </h2>   
+            </div>
+            <div class="page-6-position">
+                <div class="page-6-relative">
+                    <div class="page-6-text-position">
+                        <div class="page-tag">Design</div>
+                        <div class="text-index-wrap">
+                            <div class="text-wrap text-wrap-6-bottom active">
+                                <h2 class="page-title">
+                                    착 붙어 밀착하는<br/>
+                                    <strong>4-Way Motion</strong>
+                                </h2>
+                                <div class="page-sub-title">
+                                    앞 뒤 뿐만 아니라, 좌 우 방향으로도 움직이는 유연한 헤드는<br/>
+                                    턱 굴곡을 따라 반응하며 완벽한 면도를 도와줍니다.
+                                </div>
+                                <div class="page-6-circle-wrap">
+                                    <div class="page-6-circle active"></div>
+                                    <div class="page-6-circle"></div>
+                                    <div class="page-6-circle"></div>
+                                    <div class="page-6-circle"></div>
+                                </div>
+                            </div>
+                            <div class="text-wrap text-wrap-6-bottom">
+                                <h2 class="page-title">
+                                    위생적으로 눕혀 보관하는<br/>
+                                    <strong>FLAT-BACK 디자인</strong>
+                                </h2>
+                                <div class="page-sub-title">
+                                    엎어둔 면도날이 녹슬거나 윤활밴드가 녹는 문제를 해결한<br/>
+                                    플랫백 디자인. 면도날의 수명과 위생을 지켜줍니다.
+                                </div>
+                                <div class="page-6-circle-wrap">
+                                    <div class="page-6-circle"></div>
+                                    <div class="page-6-circle active"></div>
+                                    <div class="page-6-circle"></div>
+                                    <div class="page-6-circle"></div>
+                                </div>
+                            </div>
+                            <div class="text-wrap text-wrap-6-bottom">
+                                <h2 class="page-title">
+                                    잡고 싶은 핸들 그립<br/>
+                                    <strong>묵직하게 밀어주는 무게감</strong>
+                                </h2>
+                                <div class="page-sub-title">
+                                    사람마다 다른 12개의 면도 그립을 유형화한 설계.<br/>
+                                    인체공학적 그립과 무게감이 안정적인 면도를 도와줍니다.
+                                </div>
+                                <div class="page-6-circle-wrap">
+                                    <div class="page-6-circle"></div>
+                                    <div class="page-6-circle"></div>
+                                    <div class="page-6-circle active"></div>
+                                    <div class="page-6-circle"></div>
+                                </div>
+                            </div>
+                            <div class="text-wrap text-wrap-6-bottom">
+                                <h2 class="page-title">
+                                    안전하게 휴대하고 거치하세요.<br/>
+                                    <strong>면도기 케이스&amp;스탠드</strong>
+                                </h2>
+                                <div class="page-sub-title">
+                                    많은 고객들의 요청으로 탄생했습니다. 면도날을 보호하며<br/>
+                                    휴대가 가능하고, 좁은 공간에도 거치할 수 있습니다.
+                                </div>
+                                <div class="page-6-circle-wrap">
+                                    <div class="page-6-circle"></div>
+                                    <div class="page-6-circle"></div>
+                                    <div class="page-6-circle"></div>
+                                    <div class="page-6-circle active"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="page-6-pic-wrap">
+                        <div class="page-6-pic active">
+                            <video autoplay loop muted playsinline>
+                                <source type="video/mp4" src="image/subscription/design/4motion.mp4">
+                            </video>
+                        </div>
+                        <div class="page-6-pic"><img src="image/subscription/design/product_overwhelming_design_2.png" alt="design-image"/></div>
+                        <div class="page-6-pic"><img src="image/subscription/design/product_overwhelming_design_3.png" alt="design-image"/></div>
+                        <div class="page-6-pic"><img src="image/subscription/design/product_overwhelming_design_4.png" alt="design-image"/></div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <article class="page-7">
+            <div class="page-container page-container-7">
+                <div class="text-wrap text-wrap-7">
+                   <div class="page-tag">Performance</div>
+                    <h2 class="page-title">
+                        정교하면서도<br/>
+                        <strong>부드러운 퍼포먼스</strong>
+                    </h2>
+                </div>
+                <div class="page-7-box-wrap">
+                    <div class="page-7-pic-wrap active">
+                        <div class="page-7-pic"><img src="image/subscription/performance/razor_performance_1.png" alt="performance-Image"/></div>
+                        <div class="page-title page-title-7-in">상단, 하단 총 2개의 윤활밴드</div>
+                        <div class="page-sub-title">
+                            비타민 E가 함유된 2개의 윤활밴드가<br/>
+                            절삭 전 후 피부를 모두 보호해줍니다.
+                        </div>
+                    </div>
+                    <div class="page-7-pic-wrap">
+                        <div class="page-7-pic"><img src="image/subscription/performance/razor_performance_2.png" alt="performance-Image"/></div>
+                        <div class="page-title page-title-7-in">정교하게 배치된 5중 면도날</div>
+                        <div class="page-sub-title">
+                            5개의 면도날이 수염을 남김없이 깔끔하게<br/>
+                            면도해줍니다.
+                        </div>
+                    </div>
+                    <div class="page-7-pic-wrap">
+                        <div class="page-7-pic"><img src="image/subscription/performance/razor_performance_3.png" alt="performance-Image"/></div>
+                        <div class="page-title page-title-7-in">절삭 전에 닿는 스킨 프로텍터</div>
+                        <div class="page-sub-title">
+                            피부를 매끄럽게 펴서 면도날로부터<br/>
+                            피부를 보호하고, 트러블을 줄여줍니다.
+                        </div>
+                    </div>
+                    <div class="page-7-pic-wrap">
+                        <div class="page-7-pic"><img src="image/subscription/performance/razor_performance_4.png" alt="performance-Image"/></div>
+                        <div class="page-title page-title-7-in">다이아몬드 코팅</div>
+                        <div class="page-sub-title">
+                            면도날 표면에 다이아몬드 카본을 코팅하여<br/>
+                            더 오래 사용할 수 있게 내구성을 올렸습니다.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <article class="page-8">
+            <div class="page-container">
+                <div class="text-wrap text-wrap-8">
+                    <div class="page-tag page-tag-8">Color</div>
+                    <div class="page-title page-title-8">
+                        <div class="page-title-in active">
+                            미드나이트 <br class="mobile-un-br"/>
+                            <strong>네이비</strong>
+                        </div>
+                        <div class="page-title-in">
+                            사파이어 <br class="mobile-un-br"/>
+                            <strong>블루</strong>
+                        </div>
+                        <div class="page-title-in">
+                            슬레이트 <br class="mobile-un-br"/>
+                            <strong>그레이</strong>
+                        </div>
+                    </div>
+                    <div class="color-pick-wrap">
+                        <div class="color-pick-circle pick">
+                            <div class="color-pic navy"></div>
+                        </div>
+                        <div class="color-pick-circle">
+                            <div class="color-pic blue"></div>
+                        </div>
+                        <div class="color-pick-circle">
+                            <div class="color-pic gray"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="page-8-razor-wrap">
+                    <div class="page-8-pic-wrap">
+                        <img class="page-8-pic active" src="image/subscription/razor-bg/razor_color_pick_navy.png" alt="razor"/>
+                        <img class="page-8-pic" src="image/subscription/razor-bg/razor_color_pick_blue.png" alt="razor"/>
+                        <img class="page-8-pic" src="image/subscription/razor-bg/razor_color_pick_gray.png" alt="razor"/>
+                    </div>
+                    <div class="arrow-wrap">
+                        <img class="arrow prev" src="image/subscription/razor-bg/razorColorPickArrow.svg" alt="prev"/>
+                        <img class="arrow next" src="image/subscription/razor-bg/razorColorPickArrow.svg" alt="next"/>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <article class="page-9">
+            <div class="page-9-container">
+                <div class="page-9-pic-wrap">
+                    <img class="page-9-pic active" src="image/subscription/habit/new_habit_0.png" alt="habit-pic"/>
+                    <img class="page-9-pic" src="image/subscription/habit/new_habit_1.png" alt="habit-pic"/>
+                    <img class="page-9-pic" src="image/subscription/habit/new_habit_2.png" alt="habit-pic"/>
+                    <img class="page-9-pic" src="image/subscription/habit/new_habit_3.png" alt="habit-pic"/>
+                </div>
+                <div class="page-9-text-position">
+                    <div class="page-9-process">
+                        <span class="page-9-process-item item-1">1.쉐이빙젤</span>
+                        <img class="page-9-process-arr" src="image/subscription/habit/habit_arrow.svg" alt="arrow"/>
+                        <span class="page-9-process-item item-2">2.면도</span>
+                        <img class="page-9-process-arr" src="image/subscription/habit/habit_arrow.svg" alt="arrow"/>
+                        <span class="page-9-process-item item-3">3.애프터쉐이브</span>
+                        <div class="page-9-process-back"></div>
+                    </div>
+                    <div class="text-box-wrap">
+                        <div class="text-vertical">
+                            <div class="text-wrap text-wrap-9 active">
+                                <div class="page-title page-title-9">
+                                    자극없는 면도의 정석은<br/>
+                                    <strong>3단계로 구성</strong>됩니다
+                                </div>
+                                <div class="page-sub-title page-sub-title-9">
+                                    많은남성들이 지키지 않는 면도의 정석.<br/>
+                                    면도와 면도 전후 관리가 더해진 3단계 면도용품은<br/>
+                                    부드럽고 건강한 면도를 도와줍니다.
+                                </div>
+                                <a href="#" class="page-9-more">더 알아보기 &gt;</a>
+                            </div>                
+                            <div class="text-wrap text-wrap-9">
+                                <div class="page-title page-title-9">
+                                    면도 전 수염을 잘리게 쉽게<br/>
+                                    준비시켜주는 <strong>쉐이빙 젤</strong>
+                                </div>
+                                <div class="page-sub-title page-sub-title-9">
+                                    수염을 불려서 쉽게 잘리도록 도와주고, 면도날이<br/>
+                                    피부를 자극하지 않도록 쿠션 역할을 해줍니다.
+                                </div>
+                                <a href="#" class="page-9-more">더 알아보기 &gt;</a>
+                            </div>                
+                            <div class="text-wrap text-wrap-9">
+                                <div class="page-title page-title-9">
+                                    남김없이 깔끔하게 잘라주는<br/>
+                                    <strong>독일산 5중 면도날</strong>
+                                </div>
+                                <div class="page-sub-title page-sub-title-9">
+                                    품질 좋은 면도날로 깔끔하게 면도하세요.<br/>
+                                    턱 굴곡을 부드럽게 따라가며 수엽을 절삭해줍니다.
+                                </div>
+                                <a href="#" class="page-9-more">더 알아보기 &gt;</a>
+                            </div>                
+                            <div class="text-wrap text-wrap-9">
+                                <div class="page-title page-title-9">
+                                    자극받은 피부를 진정시키는<br/>
+                                    <strong>애프터쉐이브</strong>
+                                </div>
+                                <div class="page-sub-title page-sub-title-9">
+                                    면도날의 미세자극을 부드럽게 케어해줍니다.<br/>
+                                    트러블이나 건조함도 쉽게 관리할 수 있어요.
+                                </div>
+                                <a href="#" class="page-9-more">더 알아보기 &gt;</a>
+                            </div>                
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+            <article class="page-10">
+                    <div class="text-wrap text-wrap-10">
+                        <h2 class="page-title">
+                            부담없이 시작하세요<br/>
+                            <strong>클럽 구독 시 면도기 무료</strong>
+                        </h2>
+                        <a href="#" class="more-button button-10">시작하기</a>
+                    </div>
+                    <div class="page-10-pic"><img src="image/main/start_subscribe.png" alt="razor-pic"/></div>
+                    <div class="m-page-10-pic"><img src="image/mobile/main/start_subscribe_mobile.png" alt="razor-pic"/></div>
+            </article>
+    </section>
+  <footer>
+            <div class="footer-top">
+                <div class="page-container">
+                    <ul class="footer-top-left">
+                        <li class="footer-top-left-li"><a href="#">와이즐리 이야기</a></li>
+                        <li class="footer-top-left-li"><a href="#">개인정보처리방침</a></li>
+                        <li class="footer-top-left-li"><a href="#">이용안내</a></li>
+                        <li class="footer-top-left-li"><a href="#">사업자 정보확인</a></li>
+                        <li class="footer-top-left-li"><a href="#">이용약관</a></li>
+                    </ul>
+                    <ul class="footer-top-right">
+                        <li class="footer-top-right-li"><a href="#">로그인</a></li>
+                        <li class="footer-top-right-li"><a href="#">고객센터</a></li>
+                        <li class="footer-top-right-li"><a href="#">대량구매</a></li>
+                        <li class="footer-top-right-li"><a href="#">인재채용</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="page-container">
+                    <div class="sns-wrap">
+                        <a class="sns-icon" href="#"><img src="image/common/facebook.svg" alt="facebook"/></a>
+                        <a class="sns-icon" href="#"><img src="image/common/instagram.svg" alt="instagram"/></a>
+                    </div>
+                    <div class="footer-info">
+                        주식회사 와이즐리컴퍼니<br/>
+                        서울특별시 성동구 왕십리로 125, 8층(성수동1가, KD타워), 대표자: 김동욱<br/>
+                        사업자등록번호: 344-88-00965, 통신사판매업신고번호: 2019-서울성동-01739<br/>
+                        개인정보보호책임자: 천민기(mkchon@wiselyshave.com), 전화번호: 1833-9133 E-mail: help@wiselyshave.com<br/>
+                        <br/>
+                        고객님은 안전하게 거래를 위해 현금 등으로 결제 시 저희 쇼핑몰에서 가입한 나이스페이먼츠(주)의 구매안전서비스를 이용하실 수 있습니다.  <a href="#">서비스가입사실 확인</a><br/>
+                        와이즐리는 서비스 품질 보증을 위하여 개인정보배상책임보험 과 생산물 피해보상보험에 가입하였습니다.<br/>
+                        <br/>
+                        <span>Copyright ©2020 WISELY.All rights reserved.</span>
+                    </div>
+                    <div class="m-footer-info">
+                        <div class="m-footer-drop-title">
+                            <div class="m-footer-drop">(주) 와이즐리컴퍼니 사업자 정보</div>
+                            <div class="m-footer-drop-arrow">&gt;</div>
+                        </div><br/><br/>
+                            주식회사 와이즐리컴퍼니<br/>
+                        <div class="m-footer-drop-info">
+                            서울특별시 성동구 왕십리로 125, 8층(성수동1가, KD타워)<br/>
+                            대표자: 김동욱<br/>
+                            사업자등록번호: 344-88-00965<br/>
+                            통신사판매업신고번호: 2019-서울성동-01739<br/>
+                            개인정보보호책임자: 천민기(mkchon@wiselyshave.com)<br/>
+                            전화번호: 1833-9133 E-mail: help@wiselyshave.com<br/>
+                            <br/>
+                            고객님은 안전하게 거래를 위해 현금 등으로 결제 시 저희 쇼핑몰에서 가입한 나이스페이먼츠(주)의 구매안전서비스를 이용하실 수 있습니다.<a href="#">서비스가입사실 확인</a><br/>
+                            와이즐리는 서비스 품질 보증을 위하여 개인정보배상책임보험 과 생산물 피해보상보험에 가입하였습니다.
+                        </div>
+                        <ul class="m-footer-info-bottom">
+                            <li class="m-footer-info-bottom-li">
+                                <ul class="m-footer-info-bottom-in">
+                                    <li class="m-footer-info-bottom-in-li"><a href="#">와이즐리 이야기</a></li>
+                                    <li class="m-footer-info-bottom-in-li"><a href="#">개인정보처리방침</a></li>
+                                </ul>
+                            </li>
+                            <li class="m-footer-info-bottom-li">
+                                <ul class="m-footer-info-bottom-in">
+                                    <li class="m-footer-info-bottom-in-li"><a href="#">이용안내</a></li>
+                                    <li class="m-footer-info-bottom-in-li"><a href="#">사업자 정보확인</a></li>
+                                    <li class="m-footer-info-bottom-in-li"><a href="#">이용약관</a></li>
+                                </ul>
+                            </li>
+                            <li class="m-footer-info-bottom-li">
+                                <ul class="m-footer-info-bottom-in">
+                                    <li class="m-footer-info-bottom-in-li">Copyright ©2020 WISELY.All rights reserved.</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                </div>                
+            </div>
+        </footer>
+
+
+</body></html>

@@ -1,0 +1,311 @@
+<!doctype html>
+
+<html lang="ko">
+	<head>
+		<title>와이즐리 :: 국내 1위 면도용품 구독 서비스</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="initial-scale=1.0">		
+		<script src="script/jquery-3.5.1.js"></script>
+        <script src="script/jquery.mousewheel.js"></script>
+		<script src="script/common.js"></script>
+		<script src="script/main.js"></script>
+		<link href="css/nomalize.css" rel="stylesheet" type="text/css" />
+		<link href="css/common.css" rel="stylesheet" type="text/css" />
+		<link href="css/main.css" rel="stylesheet" type="text/css" />
+		<link href='//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css' rel='stylesheet' type='text/css'>
+
+		
+	</head>
+
+	<body>
+        <div class="cart-modal">
+            <div class="cart close-area">
+                <div class="cart-header close-area">
+                    <img class="m-cart-back" src="image/mobile/backArrow.svg" alt="back-arrow"/>
+                    장바구니
+                </div>
+                <div class="cart-body close-area">
+                    <div class="cart-empty close-area">
+                        장바구니가 비어있습니다.<br/>
+                        상품을 추가해 주세요
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="m-menu-modal">
+            <div class="m-menu close-area">
+                <div class="m-menu-top close-area">
+                    <div class="m-menu-top-text close-area">
+                        <span>현명한 습관,<br/></span>
+                        <strong>와이즐리</strong> 입니다
+                    </div>
+                    <div class="m-menu-login close-area">로그인 &gt;</div>                    
+                </div>
+                <div class="m-menu-bottom close-area">
+                    <ul class="m-menu-ul close-area">
+                        <li class="m-menu-li close-area"><a href="subscription-info.html">시작하기</a></li>
+                        <li class="m-menu-li close-area product-open">상품보기
+                            <ul class="m-mennu-product">
+                                <li class="m-menu-product-li close-area"><a href="#">선물세트</a></li>
+                                <li class="m-menu-product-li close-area"><a href="#">면도기 세트</a></li>
+                                <li class="m-menu-product-li close-area"><a href="#">리필 면도날</a></li>
+                                <li class="m-menu-product-li close-area"><a href="#">쉐이빙 젤</a></li>
+                                <li class="m-menu-product-li close-area"><a href="#">애프터쉐이브</a></li>
+                            </ul>
+                        </li>
+                        <li class="m-menu-li close-area"><a href="#">와이즐리 이야기</a></li>
+                        <li class="m-menu-li close-area"><a href="#">고객센터</a></li>
+                        <li class="m-menu-li close-area"><a href="#">채용</a><div class="recruit-quantity">0</div></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <header class="home-header">
+            <div class="header-container">
+                <div class="logo"><a href="index.html"><img src="image/common/WiselyLogo.png" alt="header-logo" /></a></div>
+                <ul class="header-menu-wrap">
+                    <li class="header-menu-li"><a href="subscription-info.html">시작하기</a></li>
+                    <li class="header-menu-li"><a href="#">상품보기</a></li>
+                    <li class="header-menu-li"><a href="#">와이즐리 이야기</a></li>
+                    <li class="header-menu-li"><a href="#">고객센터</a></li>
+                </ul>
+                <div class="user-info-wrap">
+                    <div class="info-item login-button"><a href="#">로그인</a></div>
+                    <div class="info-item basket-button-wrap">
+                        <a class="basket-button" href="#cart">장바구니</a>
+                        <a class="basket-quantity" href="#">0</a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <header class="m-header">
+            <div class="m-header-container">
+                <div class="m-menu-button"><img src="image/mobile/common/newHamburgerMenuBar.svg" alt="menu button"/></div>
+                <div class="m-logo"><a href="index.html"><img src="image/common/WiselyLogo.png" alt="mobile header logo"/></a></div>    
+                <div class="m-cart-button"><img src="image/mobile/common/newShoppingCart.svg" alt="mobile cart button"/></div>
+            </div>            
+        </header>
+        <section>
+            <article class="main-page">
+                <div class="text-wrap text-wrap-1">
+                    <h2 class="page-title">
+                       <span>정직한 가격의</span><br/>
+                       <strong>프리미엄 면도용품<br class="mobile-br"/> 구독 서비스</strong><br/>
+                    </h2>
+                    <span class="page-sub-title">독일산 5중날 8,900원, 첫 가입시 면도기를 드려요</span><br/>
+                    <a href="#" class="more-button">더 알아보기</a>
+                </div>
+            </article>
+<!--
+            <article class="page-2">
+                <div class="text-wrap text-wrap-2">
+                    <h2 class="page-title">
+                        <strong>새로운 면도 경험</strong>을<br/>
+                        선물하세요
+                    </h2>
+                    <div class="page-sub-title">
+                        건강한 면도 습관을 선물하세요. 3단계 프리미엄<br/>
+                        면도용품부터 클럽 구독 1회 기프트까지. 선물의 품격을 올려주는<br/>
+                        특별한 패키지와 쇼핑백도 제공됩니다.
+                    </div>
+                    <span class="page-info">* 한정판매 상품입니다.</span>
+                    <a href="#" class="more-button button-2">더 알아보기</a>
+                </div>
+            </article>
+-->
+            <article class="page-3">
+                <img class="img-3" src="image/main/home_fooled.png" alt="graph-pic" />
+                <div class="text-wrap text-wrap-3">
+                    <h2 class="page-title title-3"><strong>더 이상 속지 마세요</strong></h2>
+                    <div class="page-sub-title sub-title-3">
+                        면도날 가격은 거품이 많습니다. 와이즐리는 중간 유통과 과도한<br/>
+                        마케팅을 걷어내고, 최고급 면도날을 정직한 가격에 제공합니다.
+                    </div>
+                    <div id="story-button"><a href="#">브랜드 스토리 &gt;</a></div>
+                </div>
+            </article>
+            <article class="page-4">
+                <div class="page-container page-container-4">
+                    <div class="page-4-bg"></div>
+                    <div class="page-4-in-position">
+                        <div class="text-wrap text-wrap-4">
+                            <h2 class="page-title">
+                                <strong>최고급 면도용품<br/>
+                                독일 생산 5중 면도날</strong>
+                            </h2>
+                            <div class="page-sub-title">
+                                우리는 본질에 집중했습니다.<br/>
+                                세계적인 엔지니어, 디자이너들이 만들어낸<br/>
+                                압도적인 퍼포먼스와 디자인을 만나보세요.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article class="page-5">
+                <h2 class="page-5-title">가장 높은 기준으로 만든 프리미엄 면도 용품</h2>
+                <div class="premium-box-wrap">
+                     <div class="page-5-group">
+                         <div class="premium-item-wrap">
+                            <img class="premium-pic" src="image/main/premium/thumbnail_1.png" alt="premium-pic" />
+                            <div class="item-title">면도기</div>
+                            <strong class="item-price">무료증정</strong>
+                        </div>
+                         <div class="premium-item-wrap">
+                            <img class="premium-pic" src="image/main/premium/thumbnail_2.png" alt="premium-pic" />
+                            <div class="item-title">리필 면도날</div>
+                            <strong class="item-price">8,900원</strong>
+                        </div>
+                    </div>
+                    <div class="page-5-group">
+                         <div class="premium-item-wrap">
+                            <img class="premium-pic" src="image/main/premium/thumbnail_3.png" alt="premium-pic" />
+                            <div class="item-title">쉐이빙젤</div>
+                            <strong class="item-price">3,900원</strong>
+                        </div>
+                         <div class="premium-item-wrap">
+                            <img class="premium-pic" src="image/main/premium/thumbnail_4.png" alt="premium-pic" />
+                            <div class="item-title">리페어 애프터쉐이브</div>
+                            <strong class="item-price">5,900원</strong>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="more-button recommend">나에게 맞는 제품 추천 받기</a>
+            </article>
+            <article class="press-banner">
+                <div class="press-container">
+                    <div class="press-title-wrap">
+                        <img class="start-quote" src="image/main/startQuote.svg" alt="Quote-img"/>
+                        <div class="press-index">
+                            <div class="press-title on">
+                                다이아몬드 코팅된 독일산5중날로서<br/>
+                                우수한 절삭력을 보여주는데도 1만원 이하다.
+                            </div>
+                            <div class="press-title">
+                                독점화된 면도기 시장을 '가성비'로 뚫은 브랜드,<br/>
+                                시장을 정확히 파고 들었다.
+                            </div>
+                            <div class="press-title">
+                                뛰어난 절삭력, 간결한 구성과<br/>
+                                효율적인 디자인이 만들어내는 만족감
+                            </div>
+                        </div>
+                        <img class="finish-quote" src="image/main/finishQuote.svg" alt="Quote-img"/>
+                    </div>
+                    <div class="press-icon-wrap">
+                        <div class="press-icon on"><img src="image/main/news_1.svg" alt="news-icon"/></div>
+                        <div class="press-icon"><img src="image/main/news_2.svg" alt="news-icon"/></div>
+                        <div class="press-icon"><img src="image/main/news_3.svg" alt="news-icon"/></div>
+                    </div>
+                </div>
+            </article>
+            <article class="page-6">
+                <div class="page-container page-container-6">
+                    <div class="page-6-pic"></div>
+                    <div class="text-wrap text-wrap-6">
+                        <h2 class="page-title page-title-6">
+                            구독으로 만나는<br/>
+                            건강하고 편리한 생활
+                        </h2>
+                        <div class="page-sub-title page-sub-title-6">
+                            와이즐리는 좋은 제품을 넘어 건강하고 편리한 생활 습관을 제공합니다.<br/>
+                            적절한 면도날 교체 시기를 문자로 알려주고 다 떨어질 때 쯤 자동으로 배송해드려요.<br/>
+                            와이즐리 클럽으로 자극적인 면도와 낡은 면도날에서 벗어나보세요.<br/>
+                            <br/>
+                            *면도 구독서비스 1위 (2020년 2월, 오픈서베이)
+                        </div>
+                        <a href="#" class="more-button button-6">시작하기</a>
+                    </div>
+                </div>
+            </article>
+            <article class="page-7">
+                    <div class="text-wrap text-wrap-7">
+                        <h2 class="page-title">
+                            부담없이 시작하세요<br/>
+                            <strong>클럽 구독 시 면도기 무료</strong>
+                        </h2>
+                        <a href="#" class="more-button button-7">시작하기</a>
+                    </div>
+                    <div class="page-7-pic"><img src="image/main/start_subscribe.png" alt="razor-pic"/></div>
+                    <div class="m-page-7-pic"><img src="image/mobile/main/start_subscribe_mobile.png" alt="razor-pic"/></div>
+            </article>
+        </section>
+        <footer>
+            <div class="footer-top">
+                <div class="page-container">
+                    <ul class="footer-top-left">
+                        <li class="footer-top-left-li"><a href="#">와이즐리 이야기</a></li>
+                        <li class="footer-top-left-li"><a href="#">개인정보처리방침</a></li>
+                        <li class="footer-top-left-li"><a href="#">이용안내</a></li>
+                        <li class="footer-top-left-li"><a href="#">사업자 정보확인</a></li>
+                        <li class="footer-top-left-li"><a href="#">이용약관</a></li>
+                    </ul>
+                    <ul class="footer-top-right">
+                        <li class="footer-top-right-li"><a href="#">로그인</a></li>
+                        <li class="footer-top-right-li"><a href="#">고객센터</a></li>
+                        <li class="footer-top-right-li"><a href="#">대량구매</a></li>
+                        <li class="footer-top-right-li"><a href="#">인재채용</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="page-container">
+                    <div class="sns-wrap">
+                        <a class="sns-icon" href="#"><img src="image/common/facebook.svg" alt="facebook"/></a>
+                        <a class="sns-icon" href="#"><img src="image/common/instagram.svg" alt="instagram"/></a>
+                    </div>
+                    <div class="footer-info">
+                        주식회사 와이즐리컴퍼니<br/>
+                        서울특별시 성동구 왕십리로 125, 8층(성수동1가, KD타워), 대표자: 김동욱<br/>
+                        사업자등록번호: 344-88-00965, 통신사판매업신고번호: 2019-서울성동-01739<br/>
+                        개인정보보호책임자: 천민기(mkchon@wiselyshave.com), 전화번호: 1833-9133 E-mail: help@wiselyshave.com<br/>
+                        <br/>
+                        고객님은 안전하게 거래를 위해 현금 등으로 결제 시 저희 쇼핑몰에서 가입한 나이스페이먼츠(주)의 구매안전서비스를 이용하실 수 있습니다.  <a href="#">서비스가입사실 확인</a><br/>
+                        와이즐리는 서비스 품질 보증을 위하여 개인정보배상책임보험 과 생산물 피해보상보험에 가입하였습니다.<br/>
+                        <br/>
+                        <span>Copyright ©2020 WISELY.All rights reserved.</span>
+                    </div>
+                    <div class="m-footer-info">
+                        <div class="m-footer-drop-title">
+                            <div class="m-footer-drop">(주) 와이즐리컴퍼니 사업자 정보</div>
+                            <div class="m-footer-drop-arrow">&gt;</div>
+                        </div><br/><br/>
+                            주식회사 와이즐리컴퍼니<br/>
+                        <div class="m-footer-drop-info">
+                            서울특별시 성동구 왕십리로 125, 8층(성수동1가, KD타워)<br/>
+                            대표자: 김동욱<br/>
+                            사업자등록번호: 344-88-00965<br/>
+                            통신사판매업신고번호: 2019-서울성동-01739<br/>
+                            개인정보보호책임자: 천민기(mkchon@wiselyshave.com)<br/>
+                            전화번호: 1833-9133 E-mail: help@wiselyshave.com<br/>
+                            <br/>
+                            고객님은 안전하게 거래를 위해 현금 등으로 결제 시 저희 쇼핑몰에서 가입한 나이스페이먼츠(주)의 구매안전서비스를 이용하실 수 있습니다.<a href="#">서비스가입사실 확인</a><br/>
+                            와이즐리는 서비스 품질 보증을 위하여 개인정보배상책임보험 과 생산물 피해보상보험에 가입하였습니다.
+                        </div>
+                        <ul class="m-footer-info-bottom">
+                            <li class="m-footer-info-bottom-li">
+                                <ul class="m-footer-info-bottom-in">
+                                    <li class="m-footer-info-bottom-in-li"><a href="#">와이즐리 이야기</a></li>
+                                    <li class="m-footer-info-bottom-in-li"><a href="#">개인정보처리방침</a></li>
+                                </ul>
+                            </li>
+                            <li class="m-footer-info-bottom-li">
+                                <ul class="m-footer-info-bottom-in">
+                                    <li class="m-footer-info-bottom-in-li"><a href="#">이용안내</a></li>
+                                    <li class="m-footer-info-bottom-in-li"><a href="#">사업자 정보확인</a></li>
+                                    <li class="m-footer-info-bottom-in-li"><a href="#">이용약관</a></li>
+                                </ul>
+                            </li>
+                            <li class="m-footer-info-bottom-li">
+                                <ul class="m-footer-info-bottom-in">
+                                    <li class="m-footer-info-bottom-in-li">Copyright ©2020 WISELY.All rights reserved.</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                </div>                
+            </div>
+        </footer>
+	</body>
+</html>

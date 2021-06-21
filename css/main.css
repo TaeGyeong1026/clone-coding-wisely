@@ -1,0 +1,553 @@
+@charset "UTF-8";
+/* main page css file */
+@media all and (min-width : 768px){
+    .home-header{
+        background-color: #f4f4f4;
+    }
+    /*-------------------------------------------- main page */
+    .main-page{
+        background-image: url(../image/main/bg/home_background.png);
+        height: 43.333vw;
+        min-height: 720px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center bottom;
+    }
+    .text-wrap-1{
+        top: 150px;
+    }
+    /*
+    --------------------------------------------- page 2  
+    .page-2{
+        height: 44.79166667vw;
+        background-image: url(../image/main/bg/home_gift_set.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center bottom;
+    }
+    .text-wrap-2{
+        width: 57.8125%;
+        top: 30%;
+        margin: 0 auto;
+        text-align: left;
+    }
+    .page-info{
+        color: #0055B8;
+        font-size: 1.4rem;
+    }
+    .button-2{
+        margin: 0;
+        margin-top: 50px;
+    }
+    */
+
+    /*------------------------------------------- page 3*/
+    .page-3{
+        height: 769px;
+        padding: 120px 0 120px 0;
+        background-color: #1e314a;
+        text-align: center;
+    }
+    .img-3{
+        width: 198px;
+    }
+    .text-wrap-3{
+        color: white;
+        top: 45px;
+    }
+    #story-button>a{
+        font-size: 1.4rem;
+        color: white;
+    }
+
+    /*-------------------------------------------- page 4*/
+    .page-4{
+        height: 44.79166667vw;
+        color: white;
+    }
+    .page-container-4{
+        width: 100%;
+        max-width: 1920px;
+        height: 100%;
+    }
+    .page-4-in-position{
+        width: 50%;
+        height: 100%;
+        float: right;
+        background-color: white;
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    .text-wrap-4{
+        width: auto;
+        text-align: left;
+        right: 15%;
+        top: 0;
+    }
+    .page-4-bg{
+        width: 50%;
+        height: 100%;
+        float: right;
+        background-image: url(../image/main/bg/home_razor_info.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+
+    /*----------------------------------------- page 5 */
+    .page-5{
+        padding: 160px 0 160px 0;
+        text-align: center;
+        background-color: white;
+    }
+    .page-5-title{
+        font-size: 2.8rem;
+        color: #1E314A;
+        font-weight: 400;
+    }
+    .premium-box-wrap{
+        width: 1110px;
+        height: 400px;
+        margin: 100px auto;
+    }
+    .premium-item-wrap{
+        width: 255px;
+        height: 400px;
+        float: left;
+        background-color: #f4f4f4;
+        margin-right: 30px;
+    }
+    .page-5-group{
+        width: 540px;
+        height: 400px;
+        float: left;
+        margin-top: 30px;
+        margin-right: 30px;
+    }
+    .page-5-group:last-child{
+        margin-right: 0;
+    }
+    .premium-item-wrap:last-child{
+        margin-right: 0;
+    }
+    .premium-pic{
+        width: 255px;
+        height: 255px;
+    }
+    .item-title{
+        font-size: 1.4rem;
+        margin-bottom: 15px;
+    }
+    .item-price{
+        font-size: 2.2rem;
+        font-weight: 400;
+    }
+    .recommend{
+        width: 285px;
+        margin-top: 80px;
+    }
+
+    /*----------------------------------------------- press banner */
+    .press-banner{
+        height: 380px;
+        padding: 100px 0 100px 0;
+    }
+    .press-container{
+        width: 425px;
+        margin: 0 auto;
+    }
+    .press-title-wrap{
+        width: 100%;
+        height: 76px;
+        font-size: 2.4rem;
+        text-align: center;
+        color: #1E314A;
+        position: relative;
+        margin-bottom: 80px;
+    }
+    .start-quote{
+        position: absolute;
+        left: -20px;
+        top: -20px;    
+    }
+    .finish-quote{
+        position: absolute;
+        right: -20px;
+        bottom: -20px;
+    }
+    .press-title{
+        position: absolute;
+        opacity: 0;
+        transition-duration: 0.5s;
+        letter-spacing: -0.08em;
+    }
+    .press-title.on{
+        opacity: 1;
+    }
+    .press-icon-wrap{
+        width: 100%;
+    }
+    .press-icon{
+        width: 33.3333333%;
+        float: left;
+        text-align: center;
+        opacity: 0.5;
+        transition-duration: 0.5s;
+        cursor: pointer;
+    }
+    .press-icon>img{
+        padding-bottom: 10px;
+    }
+    .press-icon.on{
+        opacity: 1;
+    }
+    .press-icon.on>img{
+        border-bottom: 2px solid #0055b8;
+    }
+
+    /*---------------------------------------------- page 6 */
+    .page-6{
+        overflow: hidden;
+        background-color: white;
+        padding: 130px 0 130px 0;
+    }
+    .page-6-pic{
+        background-image: url(../image/main/home_subscription.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        width: 560px;
+        height: 420px;
+        float: left;
+        margin: 0 auto;
+    }
+    .text-wrap-6{
+        width: 470px;
+        float: left;
+        margin-left: 110px;
+        text-align: left;
+        top: 0;
+    }
+    .page-title-6{
+        font-size: 4.8rem;
+    }
+    .page-sub-title-6{
+        font-size: 1.4rem;
+    }
+    .button-6{
+        margin: 0;
+        margin-top: 50px;
+    }
+
+    /*------------------------------------------- page 7 */
+    .page-7{
+        height: 580px;
+        background-color: #1e314a;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .text-wrap-7{
+        top: 0px;
+        width: auto;
+        text-align: left;
+        color: white;
+        float: left;
+        margin-right: 16.66667%;
+        margin-left: 15px;
+    }
+    .button-7{
+        margin: 0;
+        margin-top: 50px;
+    }
+    .page-7-pic{
+        position: relative;
+        float: left;
+        width: 290px;
+        height: 100%;
+    }
+    .page-7-pic>img{
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+    }
+    .m-page-7-pic{
+        display: none;
+    }
+}
+
+
+
+@media all and (max-width: 767px){
+    .home-header{
+        background-color: #f4f4f4;
+    }
+    /*-------------------------------------------- main page */
+    .main-page{
+        background-image: url(../image/mobile/main/home_background_mobile.png);
+        height: 43.333vw;
+        min-height: 720px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center bottom;
+    }
+    .text-wrap-1{
+        top: 50px;
+    }
+    /*
+    --------------------------------------------- page 2  
+    .page-2{
+        height: 44.79166667vw;
+        background-image: url(../image/main/bg/home_gift_set.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center bottom;
+    }
+    .text-wrap-2{
+        width: 57.8125%;
+        top: 30%;
+        margin: 0 auto;
+        text-align: left;
+    }
+    .page-info{
+        color: #0055B8;
+        font-size: 1.4rem;
+    }
+    .button-2{
+        margin: 0;
+        margin-top: 50px;
+    }
+    */
+
+    /*------------------------------------------- page 3*/
+    .page-3{
+        height: 769px;
+        padding: 120px 0 120px 0;
+        background-color: #1e314a;
+        text-align: center;
+    }
+    .img-3{
+        width: 198px;
+    }
+    .text-wrap-3{
+        color: white;
+        top: 45px;
+    }
+    #story-button>a{
+        font-size: 1.4rem;
+        color: white;
+    }
+
+    /*-------------------------------------------- page 4*/
+    .page-4{
+        width: 100%;
+        overflow: hidden;
+        background-color: white;
+    }
+    .page-container-4{
+        width: 360px;
+        overflow: hidden;
+    }
+    .page-4-in-position{
+        width: 360px;
+        float: left;
+        background-color: white;
+        position: relative;
+    }
+    .text-wrap-4{
+        width: auto;
+        right: 0;
+        top: 0;
+        text-align: center;
+    }
+    .page-4-bg{
+        width: 100%;
+        height: 360px;
+        float: left;
+        background-image: url(../image/main/bg/home_razor_info.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+
+    /*----------------------------------------- page 5 */
+    .page-5{
+        padding: 160px 0 80px 0;
+        text-align: center;
+        background-color: white;
+    }
+    .page-5-title{
+        font-size: 2.8rem;
+        color: #1E314A;
+        font-weight: 400;
+    }
+    .premium-box-wrap{
+        width: 360px;
+        overflow: hidden;
+        margin: 100px auto;
+    }
+    .premium-item-wrap{
+        width: 175px;
+        height: 282px;
+        float: left;
+        background-color: #f4f4f4;
+        margin-right: 10px;
+    }
+    .page-5-group{
+        width: 360px;
+        height: 282px;
+        float: left;
+        margin: 10px auto;
+    }
+    .page-5-group:last-child{
+        margin-right: 0;
+    }
+    .premium-item-wrap:last-child{
+        margin-right: 0;
+    }
+    .premium-pic{
+        width: 155px;
+        height: 155px;
+    }
+    .item-title{
+        font-size: 1.4rem;
+        margin-bottom: 15px;
+    }
+    .item-price{
+        font-size: 2.2rem;
+        font-weight: 400;
+    }
+    .recommend{
+        width: 218px;
+        margin-top: 48px;
+    }
+
+    /*----------------------------------------------- press banner */
+    .press-banner{
+        height: 380px;
+        padding: 100px 0 100px 0;
+    }
+    .press-container{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .press-title-wrap{
+        width: 100%;
+        height: 76px;
+        font-size: 2.4rem;
+        text-align: center;
+        color: #1E314A;
+        position: relative;
+        margin-bottom: 80px;
+    }
+    .start-quote{
+        position: absolute;
+        left: 20px;
+        top: 0px;    
+    }
+    .finish-quote{
+        position: absolute;
+        right: 20px;
+        bottom: 0px;
+    }
+    .press-index{
+        width: 100%;
+        height: 60px;
+    }
+    .press-title{
+        width: 100%;
+        position: absolute;
+        opacity: 0;
+        transition-duration: 0.5s;
+        letter-spacing: -0.08em;
+    }
+    .press-title.on{
+        opacity: 1;
+    }
+    .press-icon-wrap{
+        width: 100%;
+        height: 25px;
+    }
+    .press-icon{
+        width: 33.3333333%;
+        float: left;
+        text-align: center;
+        opacity: 0.5;
+        transition-duration: 0.5s;
+        cursor: pointer;
+    }
+    .press-icon>img{
+        padding-bottom: 10px;
+    }
+    .press-icon.on{
+        opacity: 1;
+    }
+    .press-icon.on>img{
+        border-bottom: 2px solid #0055b8;
+    }
+
+    /*---------------------------------------------- page 6 */
+    .page-6{
+        overflow: hidden;
+        background-color: white;
+        padding: 130px 0 130px 0;
+    }
+    .page-container-6{
+        width: 100%;
+    }
+    .page-6-pic{
+        background-image: url(../image/mobile/main/home_subscription_mobile.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        width: 300px;
+        height: 100px;
+        margin: 0 auto;
+    }
+    .text-wrap-6{
+        width: 100%;
+        float: left;
+        margin-left: 110px;
+        text-align: left;
+        top: 0;
+    }
+    .page-title-6{
+        font-size: 4.8rem;
+    }
+    .page-sub-title-6{
+        font-size: 1.4rem;
+    }
+    .button-6{
+        margin: 0;
+        margin-top: 50px;
+    }
+
+    /*------------------------------------------- page 7 */
+    .page-7{
+        width: 100%;
+        overflow: hidden;
+        background-color: #1e314a;
+        padding-top: 100px;
+    }
+    .text-wrap-7{
+        width: 100%;
+        top: 0px;
+        text-align: center;
+        color: white;
+        float: left;
+    }
+    .button-7{
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+    .page-7-pic{
+        display: none;        
+    }
+    .m-page-7-pic{
+        width: 100%;
+        margin-top: 400px;
+    }
+    .m-page-7-pic>img{
+        width: 100%;
+    }
+}
